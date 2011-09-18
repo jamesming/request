@@ -19,6 +19,7 @@ class Home extends CI_Controller {
 	 */
 	 
 	public function index(){
+		//
 		$select_what =  'name, code';
 		$where_array = array('name' => 'Vegur');
 		$font = $this->my_database_model->select_from_table( $table = 'fonts', $select_what, $where_array, $use_order = FALSE, $order_field = '', $order_direction = 'desc', $limit = -1);
