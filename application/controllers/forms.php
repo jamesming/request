@@ -9,17 +9,18 @@ class Forms extends CI_Controller {
         
         $this->load->library('custom');
         
+        $this->data = array();
 
    }
    
 
    public function index(){
    	
-   	?>
-   	
-   	test
-   	
-   	<?php     
+		$this->load->view('forms/index_view', 
+			array(
+			'data' => $this->data
+			)
+		);  
    	
  
    }
