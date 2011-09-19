@@ -4,7 +4,7 @@ body {
 background:#F8F6F6;
 }
 input{
-border: 0
+border: 1px solid gray;
 }
 a{
 	text-decoration:none;
@@ -259,6 +259,29 @@ font-weight:normal;
 			border-bottom:1px solid gray;
 			padding:0px 5px;
 		}	
+		
+.rounded_border, .rounded_top_left{
+	border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+}
+.rounded_border, .rounded_top_right{
+	border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+}
+.rounded_border, .rounded_bottom_left{
+	border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+}
+.rounded_border, .rounded_bottom_right{
+	border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+}
+
+		
 </style>
 
 
