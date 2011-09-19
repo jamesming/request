@@ -37,7 +37,7 @@ $this->load->view('header/common_css.php');
   			Creative Request Form - Digital
   		</div>
   		<div  class='bottom_part ' >
-  			Please full out the form in it's entirety.  Please submit all forms 1-2 weeks in advance of delivery date.
+  			Please fill out the form in it's entirety.  Please submit all forms 1-2 weeks in advance of delivery date.
   		</div>
   		
   	</div>
@@ -159,7 +159,7 @@ $this->load->view('header/common_css.php');
   	<div  id='row5' class='row  ' >
   		
   		<div  class='label' >
-  			Who's the audience?  What's the objective?
+  			Who's the audience?&nbsp;&nbsp;What's the objective?
   		</div>
   		
   		<div   >
@@ -375,7 +375,96 @@ $this->load->view('header/common_css.php');
   	</div>
   	
 			
-			
+  	<div   id='row8' class='row ' >
+  		<div  class=' label' >Site Requirements:
+  		</div>
+  		<div  class='bottom_part ' >
+  			
+  			
+  			<table>
+
+  				
+  				<tr>
+  					<td>HP
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>SH
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>CT
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>INT
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Play
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Share
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  				</tr>
+ 
+  				
+  			</table>
+  			
+  		</div>
+  		
+  	</div>	
+  	
+  	
+  	
+  	
+  	
+  	<div  class='row  ' >
+  		
+  		<div  class='label' >
+  			Logo(s)/Images required.&nbsp;&nbsp;Please attach to request.&nbsp;&nbsp;Indicate placement as appropiate.  Original EPS or AI, 300 DPI is preferred.
+  		</div>
+  		
+  		<div   >
+  			<textarea name='logos'></textarea>
+  		</div>
+  		
+  	</div>
+  	
+  	
+  	
+  	<div  class='row  ' >
+  		
+  		<div  class='label' >
+  			Copy - Please be sure that copy is approved and final before submitting request.&nbsp;&nbsp;If you need a copywriter to supply copy, please provide 2 weeks advance notice and bullets/goals.&nbsp;&nbsp; Please also specify any necessary FRONT vs. BACK side commitments we should b
+  		</div>
+  		
+  		<div   >
+  			<textarea name='copy'></textarea>
+  		</div>
+  		
+  	</div>
+  		
+  	
+  	<div  class='row  ' >
+  		
+  		<div  class='label' >
+  			Additional notes/direction
+  		</div>
+  		
+  		<div   >
+  			<textarea name='copy'></textarea>
+  		</div>
+  		
+  	</div>
+  			
+  	
+  	
+  	
+  			
 					
 		<div  id='submit_row' class='clearfix row'  >	
 			
@@ -400,18 +489,30 @@ $this->load->view('header/common_css.php');
 
 			$('input:not(input[type="submit"])').val('test');		
 			
-			
-			$('#outer_edge div td:nth-child(even)').css({
-				width:'28px'
-			})
-			
 			$('#outer_edge div td:nth-child(odd)').css({
 				'text-align':'right',
 				'padding-right':'5px',
-				width:'142px',
 				'padding-top':'4px'
 			})
 			
+			
+			$('#outer_edge div#row6 td:nth-child(even), #outer_edge div#row7 td:nth-child(even)').css({
+				width:'28px'
+			})			
+			
+			$('#outer_edge div#row6 td:nth-child(odd), #outer_edge div#row7 td:nth-child(odd)').css({
+				width:'142px'
+			})
+			
+			
+			
+			$('#outer_edge div#row8 td:nth-child(even)').css({
+				width:'32px'
+			})			
+			
+			$('#outer_edge div#row8 td:nth-child(odd)').css({
+				width:'118px'
+			})				
 
   });
     

@@ -298,9 +298,7 @@ font-size:20px;
 font-weight:bold;	
 }
 
-#top_banner div.bottom_part{
-font-size:12px;
-}
+
 
 .row{
 	clear:both;	
@@ -330,13 +328,12 @@ font-weight: bold;
 #outer_edge div#row4 input{
     width: 321px;
 }
-#outer_edge div#row5 textarea{
+#outer_edge div textarea{
     width: 890px;
     height: 98px;
     margin:0px 0px 0px 0px;
 }
-#outer_edge div#row6 .bottom_part,
-#outer_edge div#row7 .bottom_part
+#outer_edge div .bottom_part
 {
 		border:1px solid darkgray;
     width: 896px;
@@ -346,8 +343,12 @@ font-weight: bold;
     padding-left:0px;
 }
 
-#outer_edge div#row6 td,
-#outer_edge div#row7 td
+#top_banner div.bottom_part{
+font-size:12px;
+border:0px;
+}
+
+#outer_edge div td,
 {
 		margin-top:5px;
 		margin-right:2px;
