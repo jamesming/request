@@ -281,7 +281,106 @@ font-weight:normal;
 	-webkit-border-bottom-right-radius: 8px;
 }
 
-		
+
+	
+	
+#outer_edge{
+	margin-top:20px;
+}
+#top_banner{
+margin:0 5px 15px;
+background:lightgray;	
+padding:20px ;
+}
+
+#top_banner div.top_part{
+font-size:20px;
+font-weight:bold;	
+}
+
+#top_banner div.bottom_part{
+font-size:12px;
+}
+
+.row{
+	clear:both;	
+	padding: 18px 0px 0px 24px
+}
+.label{
+margin:3px 8px 0 0;
+font-weight: bold;
+}
+
+#outer_edge input, #outer_edge textarea{
+    padding: 4px;
+    border: 1px solid darkgray
+}
+
+#outer_edge input[type=submit]{
+	padding:5px 8px;
+	background:orange;
+	color:white;
+	border:0px;
+}
+
+#outer_edge div#row2 input{
+    width: 303px;
+}
+
+#outer_edge div#row4 input{
+    width: 321px;
+}
+#outer_edge div#row5 textarea{
+    width: 890px;
+    height: 98px;
+    margin:0px 0px 0px 0px;
+}
+#outer_edge div#row6 .bottom_part{
+		border:1px solid darkgray;
+    width: 896px;
+    height:auto;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:0px;
+}
+
+#outer_edge div#row6 td{
+		margin-top:5px;
+		margin-right:2px;
+		width:auto;
+		height:4px;
+
+}
+
+#outer_edge div#row6 td input[type=checkbox]{
+		width:5px;
+		margin:7px;
+}
+
+#outer_edge div#row6 td input[type=text]{
+	margin-left:7px;
+}
+
+#outer_edge div#row6 td input[name=other]{
+		width:718px;
+
+}
+#outer_edge div#row6 td input[name=whatsize]{
+		width:544px
+}
+
+#outer_edge div#row6 td input[name=size]{
+		width:188px
+}
+
+
+#outer_edge input[name=need_to_aprove]{
+	width: 681px;
+}
+#submit_row{
+margin:50px 0px 0px 0px;	
+}
+
 </style>
 
 

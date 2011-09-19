@@ -6,58 +6,7 @@ $this->load->view('header/blueprint_css.php');
 $this->load->view('header/common_css.php');  
 
 ?>
-<style>
-	
-	
-#outer_edge{
-	margin-top:20px;
-}
-#top_banner{
-margin:0px 0px 20px 0px;
-background:lightgray;	
-padding:20px ;
-}
 
-#top_banner div.top_part{
-font-size:20px;
-font-weight:bold;	
-}
-
-#top_banner div.bottom_part{
-font-size:12px;
-}
-
-.row{
-	clear:both;	
-	padding: 18px 0px 0px 24px
-}
-.label{
-margin:3px 8px 0 0;
-font-weight: bold;
-}
-
-#outer_edge input{
-    padding: 4px;
-    border: 1px solid darkgray
-}
-
-#outer_edge input[type=submit]{
-	padding:5px 8px;
-	background:orange;
-	color:white;
-	border:0px;
-}
-
-#outer_edge input.two_in_row{
-    width: 303px;
-}
-#outer_edge input[name=need_to_aprove]{
-	width: 681px;
-}
-#submit_row{
-margin:50px 0px 0px 0px;	
-}
-</style>
 </head>
 
 <html>
@@ -129,14 +78,14 @@ margin:50px 0px 0px 0px;
   		
   	</div>
 
-  	<div  class='row ' >
+  	<div id='row2' class='row '  >
   		
 		  	<div  class='column span-11 '    >
 		  		
-									<div class='float_left label' >Submission Date
+									<div class='float_left label' >Project lead
 									</div>
 									
-										<input  class='two_in_row ' name="project_lead"  type="text" value=""  >
+										<input  name="project_lead"  type="text" value=""  >
 									
 		  		
 		  		
@@ -148,7 +97,7 @@ margin:50px 0px 0px 0px;
 									</div>
 		  		
 									
-										<input  class='two_in_row ' name="stand_in_contact" type="text" value=""     >
+										<input  name="stand_in_contact" type="text" value=""     >
 											  		
 
 		  		
@@ -175,6 +124,171 @@ margin:50px 0px 0px 0px;
 		
   		
   	</div>	
+  	
+  	
+  	<div id='row4' class='row ' >
+  		
+		  	<div  class='column span-11 '    >
+		  		
+									<div class='float_left label' >Project Name
+									</div>
+									
+										<input  class='two_in_row ' name="project_name"  type="text" value=""  >
+									
+		  		
+		  		
+		  	</div>
+
+		  	<div  class='column span-12 second_column'   >
+		  		
+									<div class='float_left label'   style='margin-left:72px'  >Headline
+									</div>
+		  		
+									
+										<input  class='two_in_row ' name="headline" type="text" value=""     >
+											  		
+
+		  		
+		  	</div>
+		  	
+		
+  		
+  	</div>
+  	
+  	
+  	<div  id='row5' class='row  ' >
+  		
+  		<div  class='label' >
+  			Who's the audience?  What's the objective?
+  		</div>
+  		
+  		<div   >
+  			<textarea name='audience_objective'></textarea>
+  		</div>
+  		
+  	</div>
+  	
+  	
+  	<div   id='row6' class='row ' >
+  		<div  class=' label' >What is it?
+  		</div>
+  		<div  class='bottom_part ' >
+  			
+  			
+  			<table>
+  				
+   				<tr>
+  					<td>Banner
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>What Size?
+  					</td>
+  					<td colspan='7'><input name="whatsize" id="" type="text" value="">
+  					</td>
+  										
+  				</tr>   		
+  				
+  				
+  				
+  				<tr>
+  					<td>Feature Image
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>HP
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>SH
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Interactive Quiz
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Blog Image
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  				</tr>
+  				<tr>
+  					<td>Episode Summary Page
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Host/Judge Pg.
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Cast Pg.
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Profile Pg.
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Photo Slideshow
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  				</tr>  		
+  				
+   				<tr>
+  					<td>About
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>RSVP Page
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Media Kit
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Size
+  					</td>
+  					<td colspan='3'>
+  						<input name="size" id="" type="" value="">
+  					</td>  					
+  				</tr>   				
+  				
+  				<tr>
+  					<td>Interactive
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Quiz
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Game
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td colspan='4'>
+  					</td>
+  				</tr>  
+  				
+  				
+   				<tr>
+  					<td>Other (Please Specify)
+  					</td>
+  					<td colspan='9'><input name="other" id="" type="text" value="">
+  					</td>
+  										
+  				</tr>   
+  						
+  				
+  			</table>
+  			
+  		</div>
+  		
+  	</div>
+  	
 					
 		<div  id='submit_row' class='clearfix row'  >	
 			
@@ -196,11 +310,21 @@ margin:50px 0px 0px 0px;
 	
 	
 	$(document).ready(function() {
-			$('.middle').height(
-			 $(window).height() -100
-			);
 
 			$('input:not(input[type="submit"])').val('test');		
+			
+			
+			$('#outer_edge div#row6 td:nth-child(even)').css({
+				width:'28px'
+			})
+			
+			$('#outer_edge div#row6 td:nth-child(odd)').css({
+				'text-align':'right',
+				'padding-right':'5px',
+				width:'142px',
+				'padding-top':'4px'
+			})
+			
 
   });
     
