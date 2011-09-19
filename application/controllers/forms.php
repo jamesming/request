@@ -11,7 +11,7 @@ class Forms extends CI_Controller {
         
         $this->load->library('custom');
         
-        $this->data = array();
+				 $this->data = array();
 
    }
    
@@ -26,6 +26,53 @@ class Forms extends CI_Controller {
    	
  
    }
+   
+   public function digital(){
+   	
+        $data = array(
+        	'which_request' => 'Digital'
+        );
+   	
+				$this->load->view('forms/digital_view', 
+					array(
+					'data' => $data
+					)
+				);  
+   	
+ 
+   }
+   
+   
+   
+   public function print_form(){
+   	
+        $data = array(
+        	'which_request' => 'Print'
+        );
+   	
+				$this->load->view('forms/print_view', 
+					array(
+					'data' => $data
+					)
+				);  
+   	
+ 
+   }
+   
+   public function onair(){
+   	
+        $data = array(
+        	'which_request' => 'On Air GFX'
+        );
+   	
+				$this->load->view('forms/onair_view', 
+					array(
+					'data' => $data
+					)
+				);  
+   	
+ 
+   }   
    
 
    public function update(){

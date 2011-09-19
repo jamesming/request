@@ -389,6 +389,7 @@ border:0px;
 }
 #submit_row{
 margin:50px 0px 0px 0px;	
+padding-bottom:30px;
 }
 
 </style>
