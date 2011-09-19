@@ -41,8 +41,8 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-//$db['default']['hostname'] = "localhost";
-$db['default']['hostname'] = "192.168.110.211";
+$db['default']['hostname'] = "localhost";
+//$db['default']['hostname'] = "192.168.110.211";
 $db['default']['username'] = "jamesming";
 $db['default']['password'] = "ourlady";
 $db['default']['database'] = "request_db";
