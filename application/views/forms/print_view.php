@@ -6,7 +6,19 @@ $this->load->view('header/blueprint_css.php');
 $this->load->view('header/common_css.php');  
 
 ?>
+<style>
+#outer_edge div#row6 td input[name=size]{
+		width:468px
+}
+#outer_edge div#row7 td input[name=size2]{
+		width:622px
+}
+#outer_edge div#row8 td input[name=size3]{
+    margin-right: 15px;
+    width: 153px;
+}
 
+</style>
 </head>
 
 <html>
@@ -34,9 +46,154 @@ $this->load->view('forms/top_section.php');
 ?>
 
   	
+  	<div   id='row6' class='row ' >
+  		<div  class=' label' >Deliverable:
+  		</div>
+  		<div  class='bottom_part ' >
+  			
+  			
+  			<table>
 
+  				
+  				<tr>
+  					<td colspan=2>Event
+  					</td>
+  					<td>
+  					</td>
+  					<td>Digital Invite
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Step and Repeat
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Poster
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Flyer
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Roll Up Banner
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  				</tr>
+ 
+  				<tr>
+  					<td colspan=2>
+  					</td>
+  					<td>
+  					</td>
+  					<td>Print Invite
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Size
+  					</td>
+  					<td colspan='7'><input name="size" id="" type="text" value="">
+  					</td>
+  				</tr>		
+  			</table>
+  			
+  		</div>
+  		
+  	</div>	
   	
   	
+  	<div   id='row7' class='row ' >
+
+  		<div  class='bottom_part ' >
+  			
+  			
+  			<table>
+
+  				
+  				<tr>
+  					<td colspan=2>Mailer
+  					</td>
+  					<td>
+  					</td>
+  					<td>DVD Label
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>DVD Insert
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Folder
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Premium
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Mailing Label
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  				</tr>
+ 
+  				<tr>
+  					<td colspan=2>
+  					</td>
+  					<td>
+  					</td>
+  					<td>Size
+  					</td>
+  					<td colspan='9'><input name="size2" id="" type="text" value="">
+  					</td>
+  				</tr>		
+  			</table>
+  			
+  		</div>
+  		
+  	</div>	
+  		
+  		
+  	<div   id='row8' class='row ' >
+
+  		<div  class='bottom_part ' >
+  			
+  			
+  			<table>
+
+  				
+  				<tr>
+  					<td colspan=2>Digital
+  					</td>
+  					<td>
+  					</td>
+  					<td>RSVP Page
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Online Banner
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Media Kit
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Size
+  					</td>
+  					<td colspan=3><input name="size3" id="" type="text" value="">
+  					</td>
+  				</tr>
+ 
+  				
+  			</table>
+  			
+  		</div>
+  		
+  	</div>	
+  		
+  		
   	<div  class='row  ' >
   		
   		<div  class='label' >
@@ -111,21 +268,13 @@ $this->load->view('forms/top_section.php');
 			})
 			
 			
-			$('#outer_edge div#row6 td:nth-child(even), #outer_edge div#row7 td:nth-child(even)').css({
-				width:'28px'
-			})			
+
 			
-			$('#outer_edge div#row6 td:nth-child(odd), #outer_edge div#row7 td:nth-child(odd)').css({
-				width:'142px'
-			})
-			
-			
-			
-			$('#outer_edge div#row8 td:nth-child(even)').css({
+			$('#outer_edge div#row6 td:nth-child(even),#outer_edge div#row7 td:nth-child(even),#outer_edge div#row8 td:nth-child(even)').css({
 				width:'32px'
 			})			
 			
-			$('#outer_edge div#row8 td:nth-child(odd)').css({
+			$('#outer_edge div#row6 td:nth-child(odd),#outer_edge div#row7 td:nth-child(odd),#outer_edge div#row8 td:nth-child(odd)').css({
 				width:'118px'
 			})				
 

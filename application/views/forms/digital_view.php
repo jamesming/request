@@ -6,7 +6,29 @@ $this->load->view('header/blueprint_css.php');
 $this->load->view('header/common_css.php');  
 
 ?>
+<style>
+#outer_edge div#row6 td input[name=other]{
+		width:718px;
 
+}
+#outer_edge div#row6 td input[name=whatsize]{
+		width:544px
+}
+
+#outer_edge div#row6 td input[name=size]{
+		width:188px
+}
+
+#outer_edge div#row7 td input[name=partner_sites],
+#outer_edge div#row7 td input[name=partner_url]
+{
+		width:688px;
+		margin-bottom:5px;
+}
+#outer_edge input[name=need_to_aprove]{
+	width: 681px;
+}
+</style>
 </head>
 
 <html>
