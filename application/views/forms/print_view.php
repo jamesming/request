@@ -7,6 +7,9 @@ $this->load->view('header/common_css.php');
 
 ?>
 <style>
+#outer_edge div td input[type=text]{
+margin-bottom:5px;	
+}
 #outer_edge div#row6 td input[name=size]{
 		width:468px
 }
@@ -16,6 +19,12 @@ $this->load->view('header/common_css.php');
 #outer_edge div#row8 td input[name=size3]{
     margin-right: 15px;
     width: 153px;
+}
+#outer_edge div#row9 td {
+border:1px dotted;	
+}
+#outer_edge div#row9 td input[name=publication]{
+    width: 585px;
 }
 
 </style>
@@ -192,6 +201,69 @@ $this->load->view('forms/top_section.php');
   		</div>
   		
   	</div>	
+  	
+  	
+  	
+ 	
+  	<div   id='row9' class='row ' >
+
+  		<div  class='bottom_part ' >
+  			
+  			
+  			<table>
+  				<tr>
+  					<td colspan=2>Ads
+  					</td>
+  					<td>
+  					</td>
+  					<td>Publication
+  					</td>
+  					<td colspan='10'><input name="size2" id="" type="text" value="">
+  					</td>
+  				</tr>			
+  				<tr>
+  					<td colspan=2>
+  					</td>
+  					<td>
+  					</td>
+  					<td>Issue Date
+  					</td>
+  					<td colspan=3><input name="" id="" type="text" value="">
+  					</td>
+  					
+  					<td>Placement
+  					</td>
+  					<td colspan=6><input name="" id="" type="text" value="">
+  					</td>
+  					
+  				</tr>
+ 
+  				<tr>
+  					<td colspan=2>
+  					</td>
+  					<td>
+  					</td>
+  					<td>Size
+  					</td>
+  					<td colspan=3><input name="" id="" type="text" value="">
+  					</td>
+  					
+  					<td>Color:B&W
+  					</td>
+  					<td colspan=4><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>4 Color
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					
+  				</tr>
+  			</table>
+  			
+  		</div>
+  		
+  	</div>
+  	
   		
   		
   	<div  class='row  ' >
@@ -270,13 +342,17 @@ $this->load->view('forms/top_section.php');
 			
 
 			
-			$('#outer_edge div#row6 td:nth-child(even),#outer_edge div#row7 td:nth-child(even),#outer_edge div#row8 td:nth-child(even)').css({
+			$('#outer_edge div#row6 td:nth-child(even),#outer_edge div#row7 td:nth-child(even),#outer_edge div#row8 td:nth-child(even),#outer_edge div#row9 td:nth-child(even)').css({
 				width:'32px'
 			})			
 			
-			$('#outer_edge div#row6 td:nth-child(odd),#outer_edge div#row7 td:nth-child(odd),#outer_edge div#row8 td:nth-child(odd)').css({
+			$('#outer_edge div#row6 td:nth-child(odd),#outer_edge div#row7 td:nth-child(odd),#outer_edge div#row8 td:nth-child(odd),#outer_edge div#row9 td:nth-child(odd)').css({
 				width:'118px'
-			})				
+			})		
+			
+
+			
+					
 
   });
     
