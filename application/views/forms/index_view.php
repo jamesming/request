@@ -170,7 +170,7 @@ $this->load->view('header/common_css.php');
   	
   	
   	<div   id='row6' class='row ' >
-  		<div  class=' label' >What is it?
+  		<div  class=' label' >What is it:
   		</div>
   		<div  class='bottom_part ' >
   			
@@ -289,6 +289,51 @@ $this->load->view('header/common_css.php');
   		
   	</div>
   	
+			
+			
+			
+  	<div   id='row7' class='row ' >
+  		<div  class=' label' >Where is it going live:
+  		</div>
+  		<div  class='bottom_part ' >
+  			
+  			
+  			<table>
+  
+  				
+   				<tr>
+   					
+   					<td>
+   					</td>
+   					<td>
+   					</td>
+  					<td>Partner Sites, if so which?
+  					</td>
+  					<td colspan='6'><input name="partner_sites" id="" type="text" value="">
+  					</td>
+  										
+  				</tr>   
+  						
+   				<tr>
+   					
+   					<td>
+   					</td>
+   					<td>
+   					</td>
+  					<td>Please Provide URL?
+  					</td>
+  					<td colspan='6'><input name="partner_url" id="" type="text" value="">
+  					</td>
+  										
+  				</tr>   		
+  			</table>
+  			
+  		</div>
+  		
+  	</div>
+  	
+			
+			
 					
 		<div  id='submit_row' class='clearfix row'  >	
 			
@@ -314,11 +359,11 @@ $this->load->view('header/common_css.php');
 			$('input:not(input[type="submit"])').val('test');		
 			
 			
-			$('#outer_edge div#row6 td:nth-child(even)').css({
+			$('#outer_edge div td:nth-child(even)').css({
 				width:'28px'
 			})
 			
-			$('#outer_edge div#row6 td:nth-child(odd)').css({
+			$('#outer_edge div td:nth-child(odd)').css({
 				'text-align':'right',
 				'padding-right':'5px',
 				width:'142px',

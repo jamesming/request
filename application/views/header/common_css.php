@@ -335,7 +335,9 @@ font-weight: bold;
     height: 98px;
     margin:0px 0px 0px 0px;
 }
-#outer_edge div#row6 .bottom_part{
+#outer_edge div#row6 .bottom_part,
+#outer_edge div#row7 .bottom_part
+{
 		border:1px solid darkgray;
     width: 896px;
     height:auto;
@@ -344,7 +346,9 @@ font-weight: bold;
     padding-left:0px;
 }
 
-#outer_edge div#row6 td{
+#outer_edge div#row6 td,
+#outer_edge div#row7 td
+{
 		margin-top:5px;
 		margin-right:2px;
 		width:auto;
@@ -352,12 +356,12 @@ font-weight: bold;
 
 }
 
-#outer_edge div#row6 td input[type=checkbox]{
+#outer_edge div td input[type=checkbox]{
 		width:5px;
 		margin:7px;
 }
 
-#outer_edge div#row6 td input[type=text]{
+#outer_edge div td input[type=text]{
 	margin-left:7px;
 }
 
@@ -373,7 +377,11 @@ font-weight: bold;
 		width:188px
 }
 
-
+#outer_edge div#row7 td input[name=partner_sites],
+#outer_edge div#row7 td input[name=partner_url]
+{
+		width:544px
+}
 #outer_edge input[name=need_to_aprove]{
 	width: 681px;
 }
