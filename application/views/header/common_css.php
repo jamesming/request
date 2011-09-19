@@ -380,7 +380,8 @@ font-weight: bold;
 #outer_edge div#row7 td input[name=partner_sites],
 #outer_edge div#row7 td input[name=partner_url]
 {
-		width:544px
+		width:688px;
+		margin-bottom:5px;
 }
 #outer_edge input[name=need_to_aprove]{
 	width: 681px;

@@ -299,30 +299,72 @@ $this->load->view('header/common_css.php');
   			
   			
   			<table>
-  
-  				
-   				<tr>
-   					
-   					<td>
-   					</td>
-   					<td>
-   					</td>
-  					<td>Partner Sites, if so which?
+ 					<tr>
+  					<td >SITV.COM
   					</td>
-  					<td colspan='6'><input name="partner_sites" id="" type="text" value="">
+  					<td>
+  					</td>
+  					<td>Show Pg
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Video
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Contest
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>
+  					</td>
+  					<td>
+  					</td>
+  				</tr>
+
+
+
+ 					<tr>
+  					<td>
+  					</td>
+  					<td>
+  					</td>
+  					<td>Get Si TV
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Movies
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>Schedule
+  					</td>
+  					<td><input name="" id="" type="checkbox" value="">
+  					</td>
+  					<td>
+  					</td>
+  					<td>
+  					</td>
+  				</tr>
+
+
+
+   				<tr>
+
+
+  					<td colspan=2>Partner Sites, if so which?
+  					</td>
+  					<td colspan='8'><input name="partner_sites" id="" type="text" value="">
   					</td>
   										
   				</tr>   
   						
    				<tr>
-   					
-   					<td>
-   					</td>
-   					<td>
-   					</td>
-  					<td>Please Provide URL?
+
+
+  					<td colspan=2>Please Provide URL?
   					</td>
-  					<td colspan='6'><input name="partner_url" id="" type="text" value="">
+  					<td colspan='8'><input name="partner_url" id="" type="text" value="">
   					</td>
   										
   				</tr>   		
