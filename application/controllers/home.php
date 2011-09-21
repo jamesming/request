@@ -12,7 +12,7 @@ class Home extends CI_Controller {
 	/**
 	 * Index Page for this controller.
 	 * 
-	 * @package BackEnd
+	 * @package BackEnd test
 	 * @author James Ming <jamesming@gmail.com>
 	 * @path /index.php/home/index
 	 * @access public
